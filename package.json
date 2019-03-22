@@ -1,0 +1,32 @@
+{
+  "name": "article-scraper",
+  "version": "1.0.0",
+  "description": "Web article scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naeNae15232/Article-scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "website"
+  ],
+  "author": "Jenae Studer-Hart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naeNae15232/Article-scraper/issues"
+  },
+  "homepage": "https://github.com/naeNae15232/Article-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1"
+  }
+}
